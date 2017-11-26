@@ -4,6 +4,7 @@
   padding: 0; 
 }
 h1 {
+  margin-top: 50px;
   margin-bottom: 15px;
 }
 
@@ -14,7 +15,7 @@ p {
   height: 150px;
   font-family: Helvetica;
   color: black;
-  padding-top: 40px;
+  padding-top: 30px;
   padding-left: 10px;
   padding-right: 10px;
   outline: none
@@ -26,6 +27,7 @@ p {
 @media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
+    margin-top: 100px
   }
   .col-lg-1 {
     width: 8.33%;
@@ -150,7 +152,7 @@ p {
   }
 }
 #title {text-align: center;}
-.section {position: relative; margin-left: 10px;margin-right: 10px;}
+.section {position: relative; margin-left: 10px;margin-right: 10px; margin-top: 10px}
 .chicken {position: absolute; top: 0;right: 0; background-color: pink; width: 160px; height: 30px; text-align: center; border-style: solid; border-width: 1px}
 .beef {color: white; position: absolute; top: 0;right: 0; background-color: red; width: 160px; height: 30px; text-align: center; border-style: solid; border-color: black; border-width: 1px}
 .sushi {position: absolute; top: 0;right: 0; background-color: yellow; width: 160px; height: 30px; text-align: center; border-style: solid; border-width: 1px}
