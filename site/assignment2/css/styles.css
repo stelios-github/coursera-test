@@ -2,8 +2,6 @@ body {
 font-size: 16px;
 color: #fff;
 background-color: #61122f;
-font-family: 'Oxygen', sans-serif;
-
  }
 
  #header-nav {
@@ -12,9 +10,22 @@ font-family: 'Oxygen', sans-serif;
  	border: 0;
  }
 
- #logo-img {
-	background: url("../images/logo.jpg");
-	width: 250px;
-	height: 150px;
-	margin: 20px 30px 30px 30px;
+#home-main-content-elements {
+ 	background-color: 	#007399;
+ 	margin-top: 20px
  }
+
+ #home-main-content-elements-title {
+
+ }
+
+#home-main-content-elements-tiles {
+ 	background-color: #df55df;
+ 	width: 100%
+ }
+
+ #home-main-content-elements-tiles div h3 {
+ 	 	background-color: #d9b3ff;
+
+ }
+
